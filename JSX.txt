@@ -1,0 +1,2 @@
+What is JSX?
+JSX is HTML look like code
