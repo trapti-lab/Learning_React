@@ -1,0 +1,23 @@
+What is Hot Module Replacement?
+
+As you make changes to your code, Parcel automatically rebuilds the changed files and updates your app in the 
+browser. By default, Parcel fully reloads the page, but in some cases it may perform Hot Module Replacement (HMR).
+HMR improves the development experience by updating modules in the browser at runtime without needing a whole page
+refresh. This means that application state can be retained as you change small things in your code.
+
+CSS changes are automatically applied via HMR with no page reload necessary.
+HMR works by replacing the code for a module, and then re-evaluating it and along with all of its parents. 
+If you need to customize this process, you can hook into it using the module.hot.accept and module.hot.dispose 
+methods. These let you save and restore state inside the new version of the module.
+
+
+File watcher
+#
+To support an optimal caching and development experience Parcel utilizes a very fast watcher written in C++ that
+ integrates with low-level file watching functionality of each operating system. Using this watcher Parcel watches 
+ every file in your project root (including all node_modules). Based on events and metadata from these files, 
+ Parcel determines which files need to be rebuilt.
+
+ 
+(jab bhi hum file save kre with the help of HMR it will automatically create the build with the changes this is 
+donee with the help of file watchers)

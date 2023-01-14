@@ -1,0 +1,31 @@
+{
+  "name": "learning_react",
+  "version": "1.0.0",
+  "description": "learning react",
+  
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trapti-lab/Learning_React.git"
+  },
+  "author": "Trapti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trapti-lab/Learning_React/issues"
+  },
+  "homepage": "https://github.com/trapti-lab/Learning_React#readme",
+  "dependencies": {
+    "parcel": "^2.8.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  },
+
+  "browserslist": [
+    "last 2 versions"
+  ]
+}

@@ -1,0 +1,12 @@
+
+What is the difference between `package.json` and `package-lock.json
+
+         Package.json                                            Package.lock.json
+1)It contains basic information about the project.	    1)It describes the exact tree that was generated to allow
+                                                             subsequent installs to have the identical tree.
+2)It is mandatory for every project.                    2)It is automatically generated for those operations where
+                                                             npm modifies either node_modules tree or package.json.
+3)It records important metadata about the project.	    3)It allows future devs to install the same dependencies 
+                                                             in the project.
+4)It contains information such as name, description,    4)It contains the name, dependencies, and locked version of 
+author, script, and dependencies.	                         the project.

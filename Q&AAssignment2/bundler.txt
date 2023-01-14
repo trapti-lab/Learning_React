@@ -1,0 +1,4 @@
+What is bundler?
+A bundler is a development tool that combines many JavaScript code files into a single one that is production-ready 
+loadable in the browser.
+A fantastic feature of a bundler is that it generates a dependency graph as it traverses your first code files.

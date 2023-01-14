@@ -1,0 +1,7 @@
+What is the `dist` folder?
+When we create build of our project with npx parcel build index.html 
+parcel creates the build and keep the build files(mainly index.js,index.html,index.css)  in the .dist folder (it has all the files in minified version,
+lot more like tree shaking,Image optimization,Development branch removal,Compression etc.)
+
+
+

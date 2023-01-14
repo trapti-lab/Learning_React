@@ -1,0 +1,9 @@
+What is NPM?
+NPM don't have any full form.
+Npm is the world largest software library (registry).
+this registry contains more than 80,000 code packages.
+Open-source developers use npm to share software.
+It is a package manager
+All npm package are defined in files called package.json
+The content of package.json is written in JSON format
+npm can manage the dependencies.

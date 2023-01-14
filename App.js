@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM  from "react-dom/client";
+
 const heading = React.createElement("h1",{},"Heading");
 const heading1= React.createElement("h2",{},"Heading1");
 const container=React.createElement("div",{id:"container"},[heading,heading1]);

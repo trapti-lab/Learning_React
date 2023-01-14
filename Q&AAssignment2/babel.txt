@@ -1,0 +1,3 @@
+What is babel?
+Babel is a very famous transpiler that basically allows us to use future JavaScript in today's browsers. 
+In simple words, it can convert the latest version of JavaScript code into the one that the browser understands.

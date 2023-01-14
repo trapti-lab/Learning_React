@@ -1,0 +1,7 @@
+what is transitive dependency npm?
+We have package manager which handles the transitive dependencies.
+transitive dependencies : Whenever we are building production ready app we requries some bundler which takes take of
+minification,HMR,Port handling, browser compatiblility and everything so we are just installing one bulnder 
+which inside has several node modules(package that cares of everything).So bunlder depends on these package to make our 
+app production ready also these package might depend on other packages.So this is known as transitive dependencies
+Dependency of one package on other package(in case of parcel it will creates the tree of dependencies of package it will be dependent on).

@@ -1,0 +1,1 @@
+- What is `.gitignore`? What should we add and not add into it? 
